@@ -40,6 +40,7 @@ const App = () => {
         </p>
         <p>
           <a href="https://www.amazon.com/Chakra-Wisdom-Oracle-Toolkit-Self-Discovery/dp/1780288298">View Workbook here</a>
+          There are many materials and resources to help you in this journey called life. Feel free to email anandaniprakash@icloud.com
         </p>
 
       </p>
