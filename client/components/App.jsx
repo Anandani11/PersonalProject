@@ -3,6 +3,9 @@ import React from 'react'
 const App = () => {
   return (
     <div>
+      <div id="fb-root"></div>
+      <script async defer crossOrigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2&appId=735856646592877&autoLogAppEvents=1"></script>
+
       <h1>Quotes for success</h1>
 
       <img src="http://edlester.com/wp-content/uploads/2017/01/4f76cac7d857c1b746417f69cd53b077.png" alt="Quote"></img>
@@ -40,9 +43,20 @@ const App = () => {
         </p>
         <p>
           <a href="https://www.amazon.com/Chakra-Wisdom-Oracle-Toolkit-Self-Discovery/dp/1780288298">View Workbook here</a>
-          There are many materials and resources to help you in this journey called life. Feel free to email anandaniprakash@icloud.com
+          <p>
+            <b>There are many materials and resources to help you in this journey called life. Feel free to email anandaniprakash@icloud.com</b>
+          </p>
         </p>
 
+        <p>
+          <footer>
+            <div className="footer">
+              <p>Like our facebook page here to keep updated!
+                <div className="fb-page" data-href="https://www.facebook.com/beautyviasoul/" data-tabs="timeline" data-width="180" data-height="170" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/beautyviasoul/" className="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/beautyviasoul/">Health, Beauty and Lifestyle</a></blockquote></div>
+                <div className="fb-like" data-href="https://www.facebook.com/beautyviasoul/?eid=ARC7AVkD2xe0eT2jcwQTDNflwn4XnfDe7vqh7lS8IFJdC5ykF2-77sHEx_VQk9slPhU_AeKWePmQpjP8" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div></p>
+            </div>
+          </footer>
+        </p>
       </p>
     </div>
   )
